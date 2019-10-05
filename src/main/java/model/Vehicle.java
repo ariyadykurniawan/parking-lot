@@ -8,7 +8,7 @@ public class Vehicle  {
 
     public Vehicle(){}
 
-    public Vehicle(String color, String registrationNumber) {
+    public Vehicle(String registrationNumber, String color) {
         this.color = color;
         this.registrationNumber = registrationNumber;
     }
