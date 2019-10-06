@@ -12,8 +12,8 @@ public class Main {
             processor = new FileProcessor(args[0]);
         } else {
             processor = new InteractiveParkingLotProcessor();
+            processor.printUsage();
         }
-        processor.printUsage();
         processor.process();
     }
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="13" failures="0" name="com.gojek.solution.ParkingServiceTest" time="0.011" errors="0" skipped="0">
+<testsuite tests="13" failures="0" name="com.gojek.solution.ParkingServiceTest" time="0.013" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib"/>
@@ -68,7 +68,7 @@
   <testcase classname="com.gojek.solution.ParkingServiceTest" name="testGetSLotNumberByColorNotFound" time="0.005"/>
   <testcase classname="com.gojek.solution.ParkingServiceTest" name="testParkCar" time="0.001"/>
   <testcase classname="com.gojek.solution.ParkingServiceTest" name="testGetSLotNumberByColor" time="0"/>
-  <testcase classname="com.gojek.solution.ParkingServiceTest" name="testLeaveParkAlreadyFree" time="0"/>
+  <testcase classname="com.gojek.solution.ParkingServiceTest" name="testLeaveParkAlreadyFree" time="0.001"/>
   <testcase classname="com.gojek.solution.ParkingServiceTest" name="testGetSlotNumberByRegisterNumber" time="0"/>
   <testcase classname="com.gojek.solution.ParkingServiceTest" name="testParkingLotNotExist" time="0"/>
   <testcase classname="com.gojek.solution.ParkingServiceTest" name="testGetRegistrationNumberByColor" time="0.001"/>
@@ -76,5 +76,5 @@
   <testcase classname="com.gojek.solution.ParkingServiceTest" name="testGetStatus" time="0"/>
   <testcase classname="com.gojek.solution.ParkingServiceTest" name="testGetSlotNumberByRegisterNumberNotFound" time="0"/>
   <testcase classname="com.gojek.solution.ParkingServiceTest" name="testGetRegistrationNumberByColorNotfound" time="0"/>
-  <testcase classname="com.gojek.solution.ParkingServiceTest" name="testParkingLotIsEmpty" time="0"/>
+  <testcase classname="com.gojek.solution.ParkingServiceTest" name="testParkingLotIsEmpty" time="0.001"/>
 </testsuite>
